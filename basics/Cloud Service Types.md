@@ -1,12 +1,10 @@
 IaaS (Infrastructure as a service)- Inclue services that are basically computing services, storage services, and networking
-services. Genrally make it equivalent to owning a data center. So Azure Virtual Machine is IaaS as it is a server with nothing
-install until you actually install your own software or third-party software, make it do something. 
-Vms are paid by the second. In Vms you get lot of choices in CPU speed, RAMS and etc. You also get azure storage with upto 5Pb 
-of capacity and can also be configured as data lake.
+services. Genrally make it equivalent to owning a data center. So Azure Virtual Machine is IaaS as it is a server with nothing install until you actually install your own software or third-party software, make it do something. 
+Vms are paid by the second. In Vms you get lot of choices in CPU speed, RAMS and etc. You also get azure storage with upto 5Pb of capacity and can also be configured as data lake.
 Virtual Networking are also provided which is free where ingree (inbound data ) is free but egress (data going out) is not free
 though you get 5 GB of egress bandwidth for free
 
-PaaS ( Platform as a Service)- Now in this cloud provider provide more than the IaaS there is a service layer along with it something like Middleware, development tool, database server and more ex = Azure App Service, Managed Storage, Azure SQL database and etc. 
+PaaS ( Platform as a Service)- Now in this cloud provider provide more than the IaaS like scaling, redunancy, secuirty, updates, patching, maintenance etc . In this azure procide us with the platform to run our apps like webapp we can run it but we dont have access to the vm its running.
 
 SaaS( Software as a Service)- These are basically full fledged apps - cloud apps like office 365, One drive, Skype. In this application are ready to use.
 

@@ -5,6 +5,8 @@ Also all the datacenter region do have pairs but qatar is the sole region with n
 Option but do support availabilty zone.
 There are 60+ region but not necessarily allowed to use.
 
+Zone - Each datacenter is called zone and there group is a availability zone.
+
 Availabilty Zones- these are physically separate location within a region. They are miles apart from each other and no way relaint
 on each other in any other way. They have their own resources. Not every region has availability zone like canada east. Basically 
 needed if you want to have a backups and since they are in a same region so their transer speed is less than 5ms.

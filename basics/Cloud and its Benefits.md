@@ -43,8 +43,12 @@ Pricing -
 - pay for operation - such as read write and delete or like pay per message or pay per query to database etc. usually very cheap
 - Azure Pricing calculator- used to estiamte the cost of your these services.
 
+SLA (Service Level Agreement) - The uptime percent of a cloud service like for 95% SLA the yearly downtime would be 18d 6hr 17m 27s and as for a 99% it would be 3d 15h 39m 29s and as for one with 99.9% would be 8h 45m 56s and last for one with 99.99% is 52m 35s.
 
-Advatage 
+Calculate SLA - multiply the SLA of the participating services like a app service SLA - 99.95% and Azure SQL SLA = 99.99%
+Actual SLA = 99.95*99.99 = 99.94% = 5h 15m 34s annual downtime.
+
+Advantage 
 - High Availability - the uptime your system can remain operational during planned(during a upgrade or update) and unplanned outages and provide services to your clients or customers.
 Planned Outage - Operating System Security patches , Application Updates or Hardware Replacement or maybe migrating to a new host provider.
 Unplanned Outage- Hardware failure, Network Disruptions, Power Outages, Natural Disaster, Cyber Attacks, Software Bugs, Poor Scaling or Architecture Design.
@@ -80,6 +84,7 @@ Methods to Mitigate unplanned Outages- Azure Built in features, Single core comp
   
   
   
+
 
 
 
